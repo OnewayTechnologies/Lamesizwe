@@ -1,0 +1,30 @@
+:root {
+    --red-color: red;
+    --white-color: white;
+    --secondred-color: rgb(163, 13, 13);
+    --grey-color: grey;
+    --black-color: black;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar,
+.dropdown-menu {
+    background-color: var(--red-color);
+}
+
+.navbar a:hover {
+    background-color: var(--grey-color);
+    border-radius: 5px;
+    color: var(--black-color)
+}
+
+.dropdown-menu .dropdown-item:hover {
+    padding-left: 25px;
+}
